@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname,"public")))//set default public path 
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-
 
 app.get('/sam',(req,res)=>{
-    res.render('secound.ejs')
+    res.render('first.ejs')
 })
 
 app.post('/sam',(req,res)=>{
